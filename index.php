@@ -1,11 +1,11 @@
 <?php
   include_once './class/Movie.php';
 
-  $movie1 =  new Movie("Ritorno al futuro", 116, "Fantascienza");
-  $movie2 =  new Movie("Forrest Gump ", 142, "Drammatico");
+  $movie1 =  new Movie("Ritorno al futuro", 116, ["Fantascienza", "Commedia"]);
+  $movie2 =  new Movie("Forrest Gump ", 142, ["Drammatico", "Commedia"]);
 
   var_dump($movie1);
-  
+
   var_dump($movie2);
 ?>
 <!DOCTYPE html>
