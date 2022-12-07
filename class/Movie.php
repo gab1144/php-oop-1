@@ -6,11 +6,13 @@ class Movie
     public $duration;
     public $poster;
     public $genres = [];
+    public $cast;
 
-    public function __construct($_title, $_duration, array $_genres){
+    public function __construct($_title, $_duration, array $_genres, Cast $_cast = null){
         $this->title = $_title;
         $this->duration = $_duration;
         $this->genres = $_genres;
+        $this->cast = $_cast;
     }
 
     public function setPoster($_img){

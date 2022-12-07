@@ -33,6 +33,7 @@ body {
   min-width: 200px;
   position: relative;
   margin: 0 calc(100px / 6);
+  margin-bottom: 30px;
 }
 
 .movie-card:hover .info-movie {
