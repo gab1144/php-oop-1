@@ -3,7 +3,12 @@
 
   $movie1 =  new Movie("Ritorno al futuro", 116, ["Fantascienza", "Commedia"]);
   $movie2 =  new Movie("Forrest Gump ", 142, ["Drammatico", "Commedia"]);
-  $movieList = [$movie1, $movie2];
+
+  $movie1->setPoster("https://www.postermania.it/45979-thickbox_default/manifesto-ritorno-al-futuro-michael-j-fox-steven-spielberg-cinema-poster-p14.jpg");
+
+  $movie3 =  new Movie("Jurassic Park ", 127, [	"Avventura", "Fantascienza"]);
+
+  $movieList = [$movie1, $movie2, $movie3];
 ?>
 <!DOCTYPE html>
 <html lang="en">
